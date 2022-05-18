@@ -1,0 +1,458 @@
+//voting Booth
+public class Main {
+  public static void main(String[] args) {
+    int age = 20 ;
+    if (age > 18) {
+      System.out.println("eligible for vote");
+    }
+    else
+    {
+      System.out.println("not eligible for vote");
+      }
+  }
+}
+
+eligible for vote
+............................................................................
+
+//voting Booth
+public class Main {
+  public static void main(String[] args) {
+    int age = 16 ;
+    if (age > 18) {
+      System.out.println("eligible for vote");
+    }
+    else
+    {
+      System.out.println("not eligible for vote");
+      }
+  }
+}
+
+not eligible for vote
+
+............................................................................
+
+
+//day//
+public class Main {
+  public static void main(String[] args) {
+    int day = 6;
+    switch (day) {
+      case 1:  System.out.println("Monday");    break;
+      case 2:  System.out.println("Tuesday");   break;
+      case 3:  System.out.println("Wednesday"); break;
+      case 4:  System.out.println("Thursday");  break;
+      case 5:  System.out.println("Friday");    break;
+      case 6:  System.out.println("Saturday");  break;
+      case 7:  System.out.println("Sunday");    break;
+    }
+
+
+    Saturday
+..........................................................................
+
+
+//Swich Board//
+public class Main {
+  public static void main(String[] args) {
+    int on = 6;
+    switch (on) {
+      case 1:  System.out.println("TV");    break;
+      case 2:  System.out.println("Fan");   break;
+      case 3:  System.out.println("Tube light"); break;
+      case 4:  System.out.println("AC");  break;
+      case 5:  System.out.println("Table Fan");    break;
+      case 6:  System.out.println("Night Lamp");  break;
+      
+    }
+  }
+}
+
+
+     Night Lamp
+..........................................................................
+
+
+
+//Month//
+public class Main {
+  public static void main(String[] args) {
+    int month = 6;
+    switch (month) {
+      case 1:  System.out.println("January");    break;
+      case 2:  System.out.println("February");   break;
+      case 3:  System.out.println("March");      break;
+      case 4:  System.out.println("April");      break;
+      case 5:  System.out.println("May");        break;
+      case 6:  System.out.println("June");       break;
+      case 7:  System.out.println("July");       break;
+      case 8:  System.out.println("August");     break;
+      case 9:  System.out.println("September");  break;
+      case 10:  System.out.println("October");   break;
+      case 11:  System.out.println("November");   break;
+      case 12:  System.out.println("December");  break;
+      
+    }
+  }
+}
+
+
+    June
+..........................................................................
+
+
+//Vowels//
+public class Main {
+  public static void main(String[] args) {
+    int vowel = 'i';
+    switch (vowel) {
+      case 'a':  System.out.println("Given letter is a vowel");     break;
+      case 'e':  System.out.println("Given letter is a vowel");     break;
+      case 'i':  System.out.println("Given letter is a vowel");     break;
+      case 'o':  System.out.println("Given letter is a vowel");     break;
+      case 'u':  System.out.println("Given letter is a vowel");     break;
+      default :  System.out.println("Given letter is not a vowel"); break;
+      
+    }
+  }
+}
+
+
+Given letter is a vowel
+..........................................................................
+
+
+//Vowels//
+public class Main {
+  public static void main(String[] args) {
+    int vowel = 'g';
+    switch (vowel) {
+      case 'a':  System.out.println("Given letter is a vowel");     break;
+      case 'e':  System.out.println("Given letter is a vowel");     break;
+      case 'i':  System.out.println("Given letter is a vowel");     break;
+      case 'o':  System.out.println("Given letter is a vowel");     break;
+      case 'u':  System.out.println("Given letter is a vowel");     break;
+      default :  System.out.println("Given letter is not a vowel"); break;
+      
+    }
+  }
+}
+
+
+Given letter is not a vowel
+.............................................................................
+
+
+//Paper Copier//
+public class Main {
+  public static void main(String[] args) {
+    int paper = 1;
+    for (paper=1;paper<=10;paper++) 
+    {
+      System.out.println("Paper" + " " + paper);
+    }  
+  }
+}
+
+Paper 1
+Paper 2
+Paper 3
+Paper 4
+Paper 5
+Paper 6
+Paper 7
+Paper 8
+Paper 9
+Paper 10
+........................................................................
+
+
+// Book Paper Copier//
+public class Main {
+  public static void main(String[] args) {
+    int Book = 1;
+    for (Book = 1; Book <= 3; Book++) 
+    {
+    int paper = 1;
+    for (paper = 1; paper <= 3; paper++) 
+    {
+      System.out.println( "Book" + " " + Book + "Paper" + " " + paper);
+    }  
+  }
+}
+}
+
+Book 1Paper 1
+Book 1Paper 2
+Book 1Paper 3
+Book 2Paper 1
+Book 2Paper 2
+Book 2Paper 3
+Book 3Paper 1
+Book 3Paper 2
+Book 3Paper 3
+.........................................................................
+
+
+// Bucket//
+public class Main {
+  public static void main(String[] args) {
+    int Orange = 1;
+    while (Orange <= 50)
+    {   
+      System.out.println( "Orange" + " " + Orange); 
+      if(Orange ==10)
+      {
+      System.out.println( "Bucket is full");
+      break;
+        }
+      Orange++ ;
+    }  
+  }
+}
+
+
+Orange 1
+Orange 2
+Orange 3
+Orange 4
+Orange 5
+Orange 6
+Orange 7
+Orange 8
+Orange 9
+Orange 10
+Bucket is full
+.........................................................................
+
+
+//Cars//
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Volvo", "BMW", "Ford", "Mazda", "Tata","Maruthi",};
+    for (String i : cars) {
+      System.out.println(i);
+    }    
+  }
+}
+
+
+Volvo
+BMW
+Ford
+Mazda
+Tata
+Maruthi
+.............................................................................
+
+
+//Batsmen//
+public class Main {
+  public static void main(String[] args) {
+    String[] cars = {"Dohni", "Ragul", "Rohit", "Tendulkar", 
+                        "Virat", "Ashwin","jadeja",};
+    for (String i : cars) {
+      System.out.println(i);
+    }    
+  }
+}
+
+
+Dohni
+Ragul
+Rohit
+Tendulkar
+Virat
+Ashwin
+jadeja
+.........................................................................
+
+// Odd or even number//
+public class Main {
+  public static void main(String[] args) {
+    int num = 25;
+    if (num % 2 == 0) {
+      System.out.println(" The given number is even.");
+    } else {
+      System.out.println("The given number is odd."); 
+      }
+      }
+      }
+    The given number is odd.
+..........................................................................
+
+
+//Print the largest of two numbers//
+public class Main {
+  public static void main(String[] args) {
+    int x = 20;
+    int y = 100;
+    if (x > y)
+    {
+       System.out.println("The largest number is " + x);
+    }
+     else
+     {
+      System.out.println("The largest number is " + y);
+     }  
+
+The largest number is 100
+...........................................................................
+
+// Program to find the largest of two numbers. 
+Print the largest number, 
+add 10 to the largest number and print//
+public class Main {
+  public static void main(String[] args) {
+    int x = 2087;
+    int y = 100;
+    int z;
+    if (x > y)
+    {
+       System.out.println("The largest number is " + x);
+       z=x;
+    }
+     else
+     {
+      System.out.println("The largest number is " + y);
+      z=y;
+     }  
+     int s=z+10;
+     System.out.println("The answer after adding 10 is " + s);
+    }
+   } 
+
+The largest number is 2087
+The answer after adding 10 is 2097
+............................................................................
+
+
+// Program to find the largest of three numbers.
+public class Main {
+  public static void main(String[] args) {
+    int x = 28;
+    int y = 1000000;
+    int z = 2500;
+    int lar;
+    if (x > y && x>z)
+    {
+       System.out.println("The largest number is " + x);       
+    }
+     else if (y>z && y>x)
+     {
+      System.out.println("The largest number is " + y);
+     }
+     else 
+     {System.out.println("The largest number is " + z);
+}}}
+
+
+
+The largest number is 1000000
+............................................................................
+
+//print 1- 10 numbers in reverse order using do while loop
+public class Main {
+  public static void main(String[] args) {
+    int i = 10;
+    do {
+      System.out.println(i);
+      i--;
+    }
+    while (i > 0);  
+  }
+}
+............................................................................
+
+
+//break the loop when i = 5 in the series of 10 number using break statement
+public class Main {
+  public static void main(String[] args) {
+    int i = 10;
+    while (i > 0) {
+      System.out.println(i);
+      i--;
+      if (i == 5) {
+        break;
+      }
+    }  
+  }
+}
+............................................................................
+
+// eliminate only 4 in the series of 10 numbers in a loop and print 
+public class Main {
+  public static void main(String[] args) {
+    int i = 10;
+    while (i > 0) {
+      System.out.println(i);
+      i--;
+      if (i == 4) {
+      i--;
+       continue;
+      }
+    }  
+  }
+}
+............................................................................
+
+//Program to print only even numbers between 1 to 100 using "do while" 
+public class Main {
+  public static void main(String[] args) {
+    int i= 2;
+    do {System.out.println(i);
+          i++;i++;
+  }
+    while (i<=100); 
+ }}
+
+............................................................................
+//Program to print only even numbers between 1 to 100 using "while" 
+public class Main {
+  public static void main(String[] args) {
+    int i= 2;
+    while (i<=100) {
+      System.out.println(i);
+      i++;i++;
+    }}}
+
+
+............................................................................
+//Program to print only even numbers between 1 to 100 using "for" 
+public class Main {
+  public static void main(String[] args) {
+    int i= 1;
+    for (i=2; i<=100; i++) {
+      System.out.println(i);
+      i++;
+    }}}
+
+............................................................................
+
+
+//Program to print only numbers  divisible by 6 between 1 to 200 
+public class Main {
+  public static void main(String[] args) {
+   int i;
+    for (i=1; i<=200; i++) {
+    while (i%2==0 && i%3==0)
+      { System.out.println(i);
+      i++;
+    }}}}
+
+......................................................
+
+public class Main {
+  public static void main(String[] args) {  
+  int x = 2, y = 5;
+  
+  int exp1 = (x*y/x);
+  int exp2 = (x*(y/x));
+    System.out.println(exp1);
+    System.out.println(exp2);
+
+  }
+}.....................................................................................
+
+
